@@ -11,7 +11,7 @@ const App = () => {
     <>
       <Header />
       <div className="mx-auto w-[70vw]">
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-4 pt-44">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-y-3 lg:gap-4 pt-44">
           <ShowPrice />
           <FormToTransfer />
         </div>
